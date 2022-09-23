@@ -1,0 +1,19 @@
+class hellowword{
+    public static void main(string[] args)
+      {
+        syestem.out.println("helloword"};
+        }
+       }
+       
+  public static void main(string[] args)
+          is the most important in java method when you start java programing,this is the first you encounter
+  public
+          this is the access modifier of the main method it has be public so that java run time can executed
+  static 
+          in this main has to be static,so that jvm can loaded the class into memory and call the method
+  void 
+          java main does't return anything.that's why it's return type of void,
+  main
+          this is the name of java main methods,it's fixed and when you start the a java program.
+  sstring[] args
+          jav main method accepts the single arguments of string arrau.this also called java commant line arguments.
