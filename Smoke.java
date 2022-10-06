@@ -12,7 +12,6 @@ class Smoke
                              Suresh.Y=250;
                              System.out.println(abi);
                          Suresh.kings();
-                         Suresh.Total();
                          String Kumar=Suresh.Total();
                          System.out.println(Kumar);
                        }
