@@ -1,13 +1,13 @@
-package loo.ping;
-
-public class Reverseno {
-	public static void main(String[] ar) {
-		int no=1234;
-		while(no>0) {
-			System.out.println(no%10);
-			no=no/10;
-			
-		}
-	}
-
+class Reverseno{
+    static void Reverse(int no){
+        int div=10;
+    while(no>=1){
+        System.out.println(no%div);
+        no=no/div;
+        }
+}
+public static void main(String[] args){
+        Reverse(4532);
+}
+        
 }
