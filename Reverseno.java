@@ -1,13 +1,15 @@
+import java.util.Arrays;
+
 class Reverseno{
-    static void Reverse(int no){
-        int div=10;
-    while(no>=1){
-        System.out.println(no%div);
-        no=no/div;
+    public static void main(String[] args){
+        int[] a={12,34,56,78,90,100};
+        int j=a.length-1;
+        for(int i=0;i<j;i++){
+            int temp=a[i];
+            a[i]=a[j];
+            a[j]=temp;
+            j--;
         }
-}
-public static void main(String[] args){
-        Reverse(4532);
-}
-        
-}
+        System.out.println(Arrays.toString(a));
+        }
+    }
