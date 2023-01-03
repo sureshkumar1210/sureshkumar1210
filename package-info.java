@@ -1,1 +1,1 @@
-package arrys.practice;
+package exceptionHandling;
