@@ -1,0 +1,51 @@
+public class NamePrinting {
+ public static void main(String[] args) {
+ char Letter='A';
+ char Name=' ';
+ String MyName="";
+ String sk="";
+  for(int j=0;j<26;j++) {
+   Name=Letter;
+   Letter++;
+   sk+=Name;
+  }
+  for(int i=0;i<sk.length();i++) {
+   char ch=sk.charAt(i);
+   if(ch=='S') {
+    MyName+=ch;
+   }
+  }
+  for(int i=0;i<sk.length();i++) {
+   char ch=sk.charAt(i);
+   if(ch=='U') {
+    MyName+=ch;
+   }
+  }
+  for(int i=0;i<sk.length();i++) {
+   char ch=sk.charAt(i);
+   if(ch=='R') {
+    MyName+=ch;
+   }
+  }
+  for(int i=0;i<sk.length();i++) {
+   char ch=sk.charAt(i);
+   if(ch=='E') {
+    MyName+=ch;
+   }
+  }
+  for(int i=0;i<sk.length();i++) {
+   char ch=sk.charAt(i);
+   if(ch=='S') {
+    MyName+=ch;
+   }
+  }
+  for(int i=0;i<sk.length();i++) {
+   char ch=sk.charAt(i);
+  if(ch=='H') {
+    MyName+=ch;
+   }
+  }
+  System.out.println(MyName);
+ }
+ 
+}
