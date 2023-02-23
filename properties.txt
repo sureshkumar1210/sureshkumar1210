@@ -1,0 +1,5 @@
+#upadate price
+#Thu Feb 23 13:18:45 IST 2023
+dhosai=30
+idly=30
+vada=40
